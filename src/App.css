@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.puz{
+  width: 300px ;
+  display: flex;
+  margin: 50px auto;
+  flex-wrap: wrap;
+}
+.btn{
+  width: 100px;
+  height: 100px;
+  font-size: 35px;
+  font-weight: bold;
+  background-color: rgb(220, 220, 254);
+  border: 1px solid white;
+}
+h1{
+      text-align: center;
+}
+
+
+.board {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid #000;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#restart{
+  background-color: rgb(142, 231, 142);
+  padding:  15px 25px;
+  font-size: 20px;
+  text-align: center;
+  margin:  0 0 0 46.5%;
+  border: none;
+  border-radius: 15px;
+}
+
+/*------tic tac toe ------*/
+.row
+{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    border: 5px solid white ;
+}
+
+.restart{
+    margin-left: 25px;
+    font-size: 25px;
+    padding: 10px 35px;
+    background-color: rgb(187, 217, 245);
+}
+h1{
+    color: black;
+}
+
+/*------Clc-----*/
+.App {
+  text-align: center;
+}
+
+.div{
+  margin:40px 35% 0 35% ;
+  background-color: black;
+}
+
+.text{
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: bisque;
+}
+button{
+  font-size: 35px;
+  padding: 22px;
+  margin: 13px;
+  border: none;
+  border-radius: 10px;
+}
+#btnsum{
+  background-color: rgb(137, 137, 225);
+}
+#btndot,#btndiv,#btnsub{
+  padding: 20px 25px;
+  background-color: rgb(137, 137, 225);
+}
+#btnmul{
+  padding: 20px 23.5px ;
+  background-color: rgb(137, 137, 225);
+}
+#btnequal{
+  background-color: rgb(238, 187, 78);
+}
+#btnclear{
+  background-color: rgb(231, 143, 143);
+  width: 150px;
+  text-align: center;
+  margin-top: -10px;
+  padding: 5px;
+}
+h1{
+  margin: 0;
+  color: white;
+}
+/*-----todo list-------*/
+.container{
+  margin: 20px  auto;
+  /* width: 400px; */
+  /* text-align: center; */
+  /* background-color: rgb(188, 188, 244); */
+}
+.header{
+  margin:20px 35%;
+  padding: 5px ;
+  background-color: rgb(226, 226, 254);
+}
+#input{
+  font-size: 20px;
+  margin-top: 5px;
+}
+.btnadd{
+  margin-top: 5px;
+  background-color: rgb(140, 183, 247);
+  padding: 5px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+table{
+  width: 400px;
+}
+
+.delete,.update{
+/* float: right; */
+background-color: rgb(140, 183, 247);
+margin: 0;
+padding: 5px 15px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+}
+
+/*------Result------*/
+.result-table th{
+  background-color: rgb(226, 226, 254);
+}
+.result-table{
+  width: 600px;
+}
+.header h1{
+  color: black;
+}
