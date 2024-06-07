@@ -56,7 +56,7 @@ function Demo() {
       
       <div className="App ">
             <div id="mydiv" class="header">
-            <h1 className="container"> Todo List</h1>
+            <h1 className="container"> Todo hardik dev by </h1>
             
         Name: <input type="text" id="input" value={studentdata.name} name='name' onChange={record}/> <br/>
         sci: <input type="text" id="input" value={studentdata.sci} name='sci' onChange={record}/> <br/>
